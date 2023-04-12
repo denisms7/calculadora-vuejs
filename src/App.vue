@@ -26,19 +26,18 @@ function calculo() {
       default:
         return estado.resultado = 0;
     }
-
 }
-
-
 </script>
-
 
 
 <template>
   <div class="container ">
     <header class="my-5">
       <h1>Calculadora Aritmética</h1>
-      <p>Projeto utilizando VueJS</p>
+      <p>
+        Projeto utilizando VueJS <br>
+        <a href="https://github.com/denisms7/calculadora-vuejs" target="_blank">Repositório GitHub</a>
+      </p>
     </header>
 
     <section>
@@ -76,5 +75,6 @@ function calculo() {
 </template>
 
 
+<style scoped>
 
-<style scoped></style>
+</style>
